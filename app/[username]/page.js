@@ -20,14 +20,24 @@ const Username = ({ params }) => {
             {/* Show list of all the supporter as a leaderboard. */}
             <h2 className='text-lg font-bold my-5'>Supporters</h2>
             <ul className='text-lg'>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
-              <li className='mt-2'>Shubham donated $30 with a message ""</li>
+              <li className='mt-2 flex gap-2  items-center'>
+                <img width={30} className='invert border-2 border-black p-1 rounded-full' src="user.gif" alt="userLogo" />
+                <span>
+                  Shubham donated <span className='font-bold'>$30</span>  with a message "I support you bro. Lots of 💕"
+                </span>
+              </li>
+              <li className='mt-2 flex gap-2  items-center'>
+                <img width={30} className='invert border-2 border-black p-1 rounded-full' src="user.gif" alt="userLogo" />
+                <span>
+                  Shubham donated <span className='font-bold'>$30</span>  with a message "I support you bro. Lots of 💕"
+                </span>
+              </li>
+              <li className='mt-2 flex gap-2  items-center'>
+                <img width={30} className='invert border-2 border-black p-1 rounded-full' src="user.gif" alt="userLogo" />
+                <span>
+                  Shubham donated <span className='font-bold'>$30</span>  with a message "I support you bro. Lots of 💕"
+                </span>
+              </li>
             </ul>
           </div>
 
